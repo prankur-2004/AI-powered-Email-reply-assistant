@@ -4,6 +4,18 @@
 
 ---
 
+## 🌐 Permanent Localhost Access
+
+When running, the application is locked to these permanent local addresses:
+
+| Service | Permanent Local Address | Description |
+| :--- | :--- | :--- |
+| **Frontend Web App** | **[http://localhost:5173](http://localhost:5173)** | Main Interactive UI for Email Inbox & AI Reply Drafting |
+| **Backend REST API** | **[http://127.0.0.1:8000](http://127.0.0.1:8000)** | Django REST Framework & Authentication API |
+| **Local AI Server** | **[http://127.0.0.1:8001](http://127.0.0.1:8001)** | OpenAI-Compatible Local AI Inference Endpoint |
+
+---
+
 ## 🌟 Key Features
 
 - **⚡ Universal Mailbox Integration (IMAP)**: Connects to Gmail (via App Password), Microsoft Outlook / Office 365, Yahoo Mail, iCloud, or any custom IMAP server. Automatically imports and deduplicates emails.
